@@ -1,0 +1,15 @@
+# Files not synchronised #
+###################
+*.txt
+TODO.txt~
+config.rb
+
+
+# Folders #
+############
+grilles/
+decoupe/
+templates/
+images illu$/
+.sass-cache/
+sass/

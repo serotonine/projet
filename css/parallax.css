@@ -1,0 +1,115 @@
+/* line 36, ../sass/parallax.scss */
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #edeff5;
+}
+
+/* line 43, ../sass/parallax.scss */
+menu {
+  background-color: white;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(55, 55, 55, 0.3);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(55, 55, 55, 0.3);
+  box-shadow: 0px 10px 10px 0px rgba(55, 55, 55, 0.3);
+  padding: 20px 0;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+}
+/* line 51, ../sass/parallax.scss */
+menu ul {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+/* line 56, ../sass/parallax.scss */
+menu ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+/* line 59, ../sass/parallax.scss */
+menu ul li:not(:last-child) {
+  margin-right: 1em;
+}
+/* line 60, ../sass/parallax.scss */
+menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #373737;
+}
+/* line 69, ../sass/parallax.scss */
+menu ul li a:hover {
+  color: black;
+  font-weight: 700;
+}
+
+/* line 80, ../sass/parallax.scss */
+header {
+  background-color: #edeff5;
+}
+
+/* line 81, ../sass/parallax.scss */
+footer {
+  width: 100%;
+  min-height: 100px;
+  background-color: ligthen(#373737, 80%);
+}
+
+/* line 90, ../sass/parallax.scss */
+article {
+  width: 100%;
+}
+
+/* line 91, ../sass/parallax.scss */
+article[class|="bk"] {
+  height: 600px;
+  background-attachment: fixed;
+}
+
+/* line 102, ../sass/parallax.scss */
+article[class="blank"] {
+  height: 600px;
+}
+
+/* line 104, ../sass/parallax.scss */
+div[class|="bk-fg"] {
+  height: 600px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 115, ../sass/parallax.scss */
+.bk-fg-01 {
+  background-image: url("../img/bg/owl.gif");
+  background-position: 0 70%;
+}
+
+/* line 123, ../sass/parallax.scss */
+article[id$="about"] {
+  background-image: url("../img/bg/about.png");
+  background-position: 0 0;
+}
+
+/* line 127, ../sass/parallax.scss */
+article[id$="contact"] {
+  background-image: url("../img/bg/contact.png");
+}
+
+/* line 130, ../sass/parallax.scss */
+article[id$="techno"] {
+  background-image: url("../img/bg/techno.png");
+}
+
+/* line 135, ../sass/parallax.scss */
+.wrapper-center {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* line 139, ../sass/parallax.scss */
+#wrapper-pages {
+  padding-top: 60px;
+  background-color: #edeff5;
+}

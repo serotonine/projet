@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Julie Danjou</title>
+  <!-- important pour eviter que les tablettes récuperent le design desktop -->
+  <!-- ont peut bloquer ici le zoom -->
+  <meta name="viewport" content="width=device-width initial-scale=1" >
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href='css/fonts.css' rel='stylesheet' media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <script src="js/lib/angular.min.js"></script>
+  <script src="js/lib/angular-sanitize.min.js"></script>
+  <script src="js/lib/jquery-1.11.2.min.js"></script>
+  <script src="js/lib/appear.min.js"></script>
+  <script src="js/lib/masonry.js"></script>
+  <script src="js/custom/scrollTo.js"></script>
+  <script src="js/custom/dragdrop.js"></script>
+  <script src="js/custom/utilities.js"></script>
+  <!-- $location in HTML5 mode requires a <base> tag to be present! see app.js config-->
+  <base href="/frontend/_projet/#box-about">
+  <!-- <base href="http://www.ks-serotonine.com/#box-about"> -->
+</head>
+<body ng-app="jujuApp" ng-controller="mainCtrl" >
+  <header ng-if="content">
+
+      <menu ></menu>
+
+  </header>
+  <section ng-if="content" class="wrapper-pages">
+    <article ng-if="content.pages.about" about id="box-about" ></article>
+    <article ng-if="content.pages.work" work id="box-work" ></article>
+    <article ng-if="content.pages.techno" techno id="box-techno" ></article>
+    <article ng-if="content.pages.taste" taste  id="box-taste" ></article>
+
+  </section>
+  <footer>
+
+    <section class="wrapper-center">
+
+      <p><small>&copy; ks.serotonine {{date | date:'yyyy'}}</small></p>
+    </section>
+  </footer>
+  <!-- CONTACT -->
+  <article ng-if="content.pages.contact" contact id="box-contact" class="invisible"></article>
+
+  <script type="text/javascript" src="js/custom/app.js"></script>
+  <script type="text/javascript" src="js/custom/factories.js"></script>
+  <script type="text/javascript" src="js/custom/directives.js"></script>
+  <script type="text/javascript" src="js/custom/controllers.js"></script>
+  <!-- <script src="js/custom/appear.js"></script> -->
+</body>
+</html>

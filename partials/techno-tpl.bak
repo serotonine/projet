@@ -1,0 +1,21 @@
+<div class="wrapper-center page">
+
+  <h1>{{page.title}}</h1>
+  <div class="box-body">
+    <div ng-repeat="techno in page.body">
+      <h3 class="techno-title">{{techno.title}}</h3>
+      <ul class="list-dry hidden">
+        <!-- btn-techno noselect  -->
+        <li  ng-repeat="tek in techno.technos">
+          <label>{{tek.n}}</label>
+          <div skillbar class="skillbar" data-percent="{{tek.p}}%" data-level="{{tek.l}}" ng-init="isOpen">
+            <div class="skillcount {{techno.title}}"></div>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>

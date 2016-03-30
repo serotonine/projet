@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test audio</title>
+    <style>
+    a{text-decoration: none; color:rgb(17,201,163);}
+    a:hover, a.active{ color:rgb(196,17,178);}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body>
+<ul>
+  <li>
+    <h3 class="sound"><a  href="#">Like a virgin</a></h3>
+    <audio preload="auto">
+    <source src="like-a-virgin.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+  </li>
+  <li>
+    <h3 class="sound"><a  href="#">The prisoner</a></h3>
+    <audio preload="auto">
+    <source src="the-prisoner.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+  </li>
+
+</ul>
+
+<script type="text/javascript">
+window.sound = document.getElementsByClassName("sound");
+// window.virgin = document.getElementById("virgin");
+
+for(var i=0,lg=window.sound.length; i<lg;i++){
+  window.bol=false;
+window.trig = window.sound[i].firstChild;
+//eventListener
+window.trig.addEventListener("click", function(e){
+  window.targ = $(e.target).parent().siblings("audio")[0];
+
+  if(!window.bol){ window.targ.play();  }
+  else {window.targ.pause();}
+  $(e.target).toggleClass("active");
+  window.bol= !window.bol;
+}, false);
+
+}
+
+
+
+
+</script>
+
+  </body>
+</html>

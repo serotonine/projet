@@ -1,0 +1,181 @@
+{
+"menu":[
+  {"key":"about","value":"a propos"},
+  {"key":"work","value":"travaux"},
+  {"key":"techno","value":"technologie"},
+  {"key":"taste","value":"goûts"},
+  {"key":"contact","value":"contact"}],
+
+  "pages":{
+    "about":{
+
+      "title":"A propos, un zeste de storytelling",
+      "body":[
+        { "title":"Like a virgin",
+        "sound":"like-a-virgin",
+        "body":"Issue d'un background graphique,  j'ai contracté le virus de la programmation avec Action Script : de gotoAndPlay aux Extends, Override et Super en passant par les loops, les très chaudes functions et le parsage de fichiers xml. Parallelement j’ai eu l’illumination POO en m’initiant à  java. Et puisque Action Script ou le css/html ne suffisait pas/plus pour travailler dans le web, je me suis formée à PHP/MySQL/JavaScript et décortiqué quelques cms (Drupal - WordPress - Spip)."},
+        { "title":"The prisoner",
+        "sound":"the-prisoner",
+        "body":"J’ai ensuite occupé un poste de back-end dev… Oops! Software Engineer. Ma fonction consistait à domestiquer la farouche plateforme e-commerce Magento (customisation, implémentation, hybridation) et parfois on m’octroyais le plaisir de jouer avec Drupal ou bien la joie de tripoter du javascript."},
+        { "title":"Walk like a panther",
+        "sound":"walk-like-a-panther",
+        "body":"De nouveau livrée à moi-même je me suis précipitée sur AngularJS et javascript et pris des cours intensifs de néerlandais (j’ai developpé ma première application en AngularJS pour mémoriser mon vocabulaire in het Nederlands). Ensuite, pour asseoir ma crédibilité et être bien up to date au niveau html5/css3/responsive design j’ai suivi une formation qualifiante front-end developer.<br/><br/>Je recherche à present une équipe ouverte d'esprit, qui ne considère pas que la programmation est une affaire de testostérone (les hommes savent pourquoi c’est plutôt à l’apéro) avec laquelle collaborer en tant que front-end developer."}
+      ]
+      },
+      "work":{
+        "title":"travaux",
+        "body":[
+          {
+            "title":"Translator",
+            "desc":"Application pour mémoriser du vocabulaire. Création personnelle.",
+            "technos":"AngularJS, REST, Bootstrap, Mysql, PHP, Jquery",
+            "url":"http://www.ks.serotonine.com/translator/",
+            "img":"img/works/translator.png"
+          },
+          {
+            "title":"exercices Javascript",
+            "desc":"Exercices variés VanillaJS AngularJS JQuery NodeJS HTML5 CSS3.",
+            "technos":"AngularJS, NodeJS, javascript",
+            "url":"http://www.julie-danjou.com",
+            "img":"img/works/exosjs.png"
+          },
+          {
+            "title":"Veritas",
+            "desc":"Application e-commerce.",
+            "technos":"Magento, Drupal, Compario, PHP, Jquery, XML",
+            "url":"http://www.veritas.be",
+            "img":"img/works/veritas.png"
+          },
+          {
+            "title":"Essentiel Antwerp",
+            "desc":"Application e-commerce.",
+            "technos":"Magento, PHP, Jquery, XML",
+            "url":"http://www.essentiel-anwerp",
+            "img":"img/works/essentiel.png"
+          },
+          {
+            "title":"Flanders Drive",
+            "desc":"Ancien site de Flandersmake.",
+            "technos":"Drupal",
+            "url":"http://www.flandersdrive",
+            "img":"img/works/flandersdrive.png"
+          },
+          {
+            "title":"Bertrand Segonzac",
+            "desc":"Présentation de l'artiste.",
+            "technos":"Drupal, javascript",
+            "url":"http://www.bertrandsegonzac.com",
+            "img":"img/works/segonzac.png"
+          }
+        ]
+        },
+        "techno":{
+          "title":"technologies",
+          "body":[
+            {
+              "title":"Langages",
+              "technos":["PHP","Javascript","html5","CSS3","MySql","Json","XML","java","ActionScript"]
+            },
+            {
+              "title":"frameworks, bibliothèques & taskrunner",
+              "technos":["AngularJS","jQuery","Modernizr","RequireJS","UnderscoreJS","Grunt","Sass"]
+            },
+            {
+              "title":"CMS & E-commerce",
+              "technos":["Magento","Drupal","WordPress","Spip"]
+            },
+            {
+              "title":"softwares",
+              "technos":["Git","SVN","Adobe","atom"]
+            }
+          ],
+          "compil":[
+            "javascript",
+            "html5",
+            "css3",
+            "angularjs",
+            "jquery",
+            "grunt",
+            "modernizr",
+            "requirejs",
+            "underscore",
+            "sass",
+            "php",
+            "mysql",
+            "json",
+            "xml",
+            "magento",
+            "drupal",
+            "wordpress",
+            "spip",
+            "photoshop",
+            "illustrator",
+            "flash",
+            "indesign",
+            "git",
+            "svn",
+            "atom",
+            "ubuntu"
+          ]
+          },
+          "taste":{
+            "title":"goûts",
+            "subtitle":["ce que j'aime","ce que je n'aime pas"],
+            "body":{
+            "love":[
+              { "title":"Petits Mickeys",
+                "img":"img/taste/jeune-albert.jpg",
+                "body":"Je dessine et suis une fan de bd depuis toujours.<br/>Et comme une image vaut mieux que 1000 mots voici un <a href='http://localhost/frontend/carousels/slick-carousel/slick.html' target='_blank' >aperçu</a> non exhaustif de mes coups de coeur intemporels.",
+                "url":""
+              },
+              { "title":"Veille technologique",
+                "img":"img/taste/self-learning.jpg",
+                "body":"Elle est indispensable dans le secteur du web (entre autre). Voici quelques sites que j’utilise régulièrement:<ul><li><a href='http://stackoverflow.com/'>Stackoverflow.com</a></li><li><a href='http://www.grafikart.fr/'>Grafikart.fr</a></li><li><a href='http://regexr.com/'>regexr.com</a></li><li><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>developer.mozilla.org</a></li><li><a href='https://www.codecademy.com'>codecademy.com</a></li><li><a href='http://www.codewars.com/'>codewars.com</a></li><li><a href='https://openclassrooms.com'>openclassrooms.com</a></li></ul>",
+                "url":""
+              },
+              { "title":"Ecléctique en musique",
+                "img":"img/taste/black.jpg",
+                "body":"Depuis que j’ai revu The Goodfellas je me réveille tout les matins avec <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/QUiYrOAoALw?autoplay=1'>Il cielo in una stanza</a> dans ma tête. J'ai un fort penchant pour  <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/yLvByOh2iLo?autoplay=1'>l'électro femelle</a> et <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/zvP9D3N-UZs?autoplay=1'>l'électro</a><a class='open-popup' href='#' data-link='https://www.youtube.com/embed/TAvX57LeAZE?autoplay=1'>frenchy</a>.<br/>Coup de coeur récent pour<a class='open-popup' href='#' data-link='https://www.youtube.com/embed/08h0IVs4RKQ?autoplay=1'> the Heavy</a> C'est bien mieux que The Black Keys non? Et si <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/t2zb_iZC6nI?autoplay=1'>Frank</a> reste mon ami pour la vie, je défaille aussi devant tant de <a href='#'class='open-popup' data-link='https://www.youtube.com/embed/36Y_ztEW1NE?autoplay=1'>beautés</a>.<br/>Sans oublier quelques <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/cn8bQmo-Tw4?autoplay=1'>soundtracks</a>.",
+                "url":""
+              }
+
+              ],
+              "hate":[
+                { "title":"Les dark pattern",
+                  "img":"img/taste/dark-pattern.png",
+                  "body":"Ou interfaces conçues pour tromper l'utilisateur.<br/>Qui à déjà réservé un billet sur Ryanair connait le chemin de croix pour éviter les assurances complémentaires, les locations de voitures, les réservations de fauteuil, les alertes sms&hellip; <br/> Regarder un film gratuit en streaming ? bienvenue dans le pays des liens pourris (bien fait pour vous !).<br/> <a href='http://darkpatterns.org/'>Dis moi en plus</a>",
+                  "url":"http://darkpatterns.org/"
+                },
+                { "title":"Les popup intempestifs",
+                  "img":"img/taste/pesci.png",
+                  "body":"Non merci je ne veux pas m'inscrire sur votre site&hellip; il est où ce p... de bouton ? Non merci je ne veux pas non plus m'inscrire à votre newsletter, JE VEUX JUSTE LIRE UNE INFO!!! Goodverdoume !<br/> <a href='https://thinkster.io/egghead/angular-element'>Dis moi en plus</a>",
+                  "url":""
+                },
+                { "title":"Les vidéos chronophages",
+                  "img":"img/taste/dr-evil.png",
+                  "body":"Ok je veux comprendre le pourquoi du comment de cette syntaxe, pas ton plan de carrière.<br/>Tiens ce morceau doit bien marcher puisque je me fade une pub de 12s avant de le visionner.<br/> <a href='https://www.youtube.com/watch?v=_6ijcqI5fi8&feature=player_embedded'>Dis moi en plus</a>",
+                  "url":""
+                }
+
+                ]}
+            },
+            "contact":{
+              "title":"Contact",
+              "name":"Votre nom",
+              "mail":"Votre adresse mail",
+              "subject":"Objet du message",
+              "message":"Dites moi",
+              "nameReqMess":"Quel est votre nom?",
+              "mailReqMess":"Quelle est votre adresse mail?",
+              "subjectReqMess":"Quel est l'objet de votre message?",
+              "messReqMess":"Quel est votre message?",
+              "mailInvalMess":"Votre adresse mail est invalide",
+              "submit":"Envoyez"
+            },
+
+              "footer":[ ]
+
+            }
+
+
+          }

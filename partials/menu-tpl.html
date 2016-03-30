@@ -1,0 +1,21 @@
+<div id="logo"></div>
+
+<section class="wrapper-center">
+
+  <nav ng-click="showMenu($event)">
+    <ul class="menu-main">
+      <li ng-repeat="(key,el) in content.menu |orderBy:key">
+
+        <a ng-if="el.key!=='contact'"menu-scroll-to ng-class={'active':$first} href="" link="box-{{el.key}}">{{el.value}}</a>
+        <a ng-if="el.key==='contact'"menu-scroll-to href="" id='contact' ng-click="showContact()">{{el.value}}</a>
+      </li>
+    </ul>
+  </nav>
+</section>
+<ul id="lg">
+  <li class="lg"  ng-click="switchLg('en')"><small ng-class={'active':lang=='en'}>en</small></li><!--
+  --><li><small>&nbsp;&#124;&nbsp;</small></li><!--
+  --><li class="lg" ng-click="switchLg('fr')"><small ng-class={'active':lang=='fr'}>fr</small></li><!--
+--><li><small>&nbsp;&#124;&nbsp;</small></li><!--
+--><li class="lg" ng-click="switchLg('nl')"><small ng-class={'active':lang=='nl'}>nl</small></li>
+</ul>

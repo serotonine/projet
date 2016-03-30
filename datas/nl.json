@@ -1,0 +1,181 @@
+{
+"menu":[
+  {"key":"about","value":"over"},
+  {"key":"work","value":"werken"},
+  {"key":"techno","value":"technologieën"},
+  {"key":"taste","value":"smaken"},
+  {"key":"contact","value":"contact"}],
+
+  "pages":{
+    "about":{
+
+      "title":"Over, een vleugje van storytelling",
+      "body":[
+        { "title":"Like a virgin",
+        "sound":"like-a-virgin",
+        "body":"Met een achtergrond van graficus, heb ik het programmerings virus gekregen met Action Script : van gotoAndPlay naar Extends, Override en Super door de loops, de hete functions en het parsen van xml files. Paralel daarmee heb ik de OOP infectie gekregen, enkel door initiatie java. Daar Action Script of het css/html niet voldoende waren om in de web werken, heb ik een PHP/MySQL/JavaScript opleiding gevolgd, daarna heb ik enkele cms (Drupal - WordPress - Spip) 'uitgekleed'."},
+        { "title":"The prisoner",
+        "sound":"the-prisoner",
+        "body":"Vervolgens heb ik als back-end dev… Oops! Software Engineer gediend. Mijn opdracht bestaat erin het wilde e-commerce platform Magento te temmen (aanpassen, implementatie, kruising) en soms vergunt men me te genieten van het spelen met Drupal of de vreugde van enkele javascript grabbels."},
+        { "title":"Walk like a panther",
+        "sound":"walk-like-a-panther",
+        "body":"Toe ik weer aan mezelf overgeleverd was heb ik op AngularJS en javascript smeet het me en volgde ik een intensieve cursus Nederlands (Ik heb mijn eerste AngularJS applicatie ontwikkeld om de Nl woordenschat op te nemen). Daarna, om de geloofwaardigheid te bevestigen  en up too date te blijven met html5/css3/responsive design, volgde ik een front-end developer opleiding.<br/><br/> Ik zoek nu een open-mind team, dat programmatie niet beschouwt als een zaak van testosteron (mannen weten waarom is namelijk voor aperitief) met wie ik als front-end developer zou samenwerken."}
+      ]
+      },
+      "work":{
+        "title":"realisatie",
+        "body":[
+          {
+            "title":"Translator",
+            "desc":"app taal opnemen. Persoonlijk oprichting",
+            "technos":"AngularJS, REST, Bootstrap, Mysql, PHP, Jquery",
+            "url":"http://www.ks.serotonine.com/translator/",
+            "img":"img/works/translator.png"
+          },
+          {
+            "title":"Javascript oefeningen",
+            "desc":"Javascript oefeningen js AngularJS JQuery NodeJS en html5",
+            "technos":"AngularJS, NodeJS, javascript html5",
+            "url":"http://www.julie-danjou.com",
+            "img":"img/works/exosjs.png"
+          },
+          {
+            "title":"Veritas",
+            "desc":"Veritas e-shop",
+            "technos":"Magento, Drupal, Compario, PHP, Jquery, XML",
+            "url":"http://www.veritas.be",
+            "img":"img/works/veritas.png"
+          },
+          {
+            "title":"Essentiel Antwerp",
+            "desc":"Essentiel Antwerp e-shop",
+            "technos":"Magento,PHP,Jquery,XML",
+            "url":"http://www.essentiel-anwerp",
+            "img":"img/works/essentiel.png"
+          },
+          {
+            "title":"Flanders Drive",
+            "desc":"R&D wagen onderzoek",
+            "technos":"Drupal",
+            "url":"http://www.flandersdrive",
+            "img":"img/works/flandersdrive.png"
+          },
+          {
+            "title":"Bertrand Segonzac",
+            "desc":"Artiste website",
+            "technos":"Drupal, javascript",
+            "url":"http://www.bertrandsegonzac.com",
+            "img":"img/works/segonzac.png"
+          }
+        ]
+        },
+        "techno":{
+          "title":"technologies",
+          "body":[
+            {
+              "title":"Langages",
+              "technos":["PHP","Javascript","html5","CSS3","MySql","Json","XML","java","ActionScript"]
+            },
+            {
+              "title":"frameworks, biblioteken & taskrunner",
+              "technos":["AngularJS","jQuery","Modernizr","RequireJS","UnderscoreJS","Grunt","Sass"]
+            },
+            {
+              "title":"CMS & E-commerce",
+              "technos":["Magento","Drupal","WordPress","Spip"]
+            },
+            {
+              "title":"softwares",
+              "technos":["Git","SVN","Adobe","atom"]
+            }
+          ],
+          "compil":[
+            "javascript",
+            "html5",
+            "css3",
+            "angularjs",
+            "jquery",
+            "grunt",
+            "modernizr",
+            "requirejs",
+            "underscore",
+            "sass",
+            "php",
+            "mysql",
+            "json",
+            "xml",
+            "magento",
+            "drupal",
+            "wordpress",
+            "spip",
+            "photoshop",
+            "illustrator",
+            "flash",
+            "indesign",
+            "git",
+            "svn",
+            "atom",
+            "ubuntu"
+          ]
+          },
+          "taste":{
+            "title":"smaken",
+            "subtitle":["Wat ik geniet","Wat ik geniet niet"],
+            "body":{
+            "love":[
+              { "title":"Stripverhalen",
+                "img":"img/taste/jeune-albert.jpg",
+                "body":"Ik teken en ik ben een stripverhaal liefhebber al altijd.<br/>Als een beeld waard 1000 worden hiereby een <a href='http://localhost/frontend/carousels/slick-carousel/slick.html' target='_blank' >kijk</a> niet exhaustief van mijn buitentijdse 'coups de coeur'.",
+                "url":""
+              },
+              { "title":"zelfstandige studie",
+                "img":"img/taste/self-learning.jpg",
+                "body":"Het is onontbeerlijk in de web wereld (onder andere). Hier enkele websites die ik regelmatig gebruik :<ul><li><a href='http://stackoverflow.com/'>Stackoverflow.com</a></li><li><a href='http://www.grafikart.fr/'>Grafikart.fr</a></li><li><a href='http://regexr.com/'>regexr.com</a></li><li><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>developer.mozilla.org</a></li><li><a href='https://www.codecademy.com'>codecademy.com</a></li><li><a href='http://www.codewars.com/'>codewars.com</a></li><li><a href='https://openclassrooms.com'>openclassrooms.com</a></li></ul>",
+                "url":""
+              },
+              { "title":"Eclectisch in muziek",
+                "img":"img/taste/black.jpg",
+                "body":"Sinds ik 'The Goodfellas' nog een keer gezien heb ontwaak ik elke morgen met <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/QUiYrOAoALw?autoplay=1'>Il cielo in una stanza</a> in mijn hoofd. Ik ben geneigd tot <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/yLvByOh2iLo?autoplay=1'>vrouwelijke electro</a> en <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/zvP9D3N-UZs?autoplay=1'>frenchy</a><a class='open-popup' href='#' data-link='https://www.youtube.com/embed/TAvX57LeAZE?autoplay=1'>electro</a>.<br/>Recent crush voor<a class='open-popup' href='#' data-link='https://www.youtube.com/embed/08h0IVs4RKQ?autoplay=1'> the Heavy</a> Dat is veel beter dan The Black Keys niewaar? Als <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/t2zb_iZC6nI?autoplay=1'>Frank</a> blijft mijn vriend voor het leven, ik val ook voor zo veel <a href='#'class='open-popup' data-link='https://www.youtube.com/embed/36Y_ztEW1NE?autoplay=1'>schoonheid</a>.<br/>Niet verget enkele <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/cn8bQmo-Tw4?autoplay=1'>soundtracks</a>.",
+                "url":""
+              }
+
+              ],
+              "hate":[
+                { "title":"Dark pattern",
+                  "img":"img/taste/dark-pattern.png",
+                  "body":"Of interfaces gemaakt om de gebruiker te bedriegen.<br/>Die reeds een tiket op Ryanair.com bekend met de kruisweg om de bijkomende verzekerings te omzeilen, de huur van wagens, reservaties, alarm sms&hellip; <br/> Een gratis film bekijken met streaming ? welkome in het land van de bedorven verbindingen (wel verdiend !).<br/> <a href='http://darkpatterns.org/'>Zeg maar meer</a>",
+                  "url":"http://darkpatterns.org/"
+                },
+                { "title":"Ontijdige popups",
+                  "img":"img/taste/pesci.png",
+                  "body":"Nee, dank u wel,  ik will niet inschrijven op uw site&hellip; waar is die f... knop ? Nee, dank u wel, ik will evenmin inschrijven op uw newsletter, IK WILL ALLEEN EEN INFO LEZEN!!! verdomme !<br/> <a href='https://thinkster.io/egghead/angular-element'>Zeg maar meer</a>",
+                  "url":"href='https://thinkster.io/egghead/angular-element'"
+                },
+                { "title":"de stomme videos",
+                  "img":"img/taste/dr-evil.png",
+                  "body":"Ok, ik wil wat en waarom van het wat van deze syntax, en geen niet ter zake doende gezeik.<br/>Dit track zou goed moeten marcheren omdat ik eerst een pub van 22s moet ondergaan alvorens te visioneren.<br/> <a href='https://www.youtube.com/watch?v=_6ijcqI5fi8&feature=player_embedded'>Dis moi en plus</a>",
+                  "url":""
+                }
+
+                ]}
+            },
+            "contact":{
+              "title":"Contact",
+              "name":"Je naam",
+              "mail":"Je email adress",
+              "subject":"bericht onderwep",
+              "message":"Zeg mij",
+              "nameReqMess":"Wat is je naam ?",
+              "mailReqMess":"Wat is je email adress?",
+              "subjectReqMess":"onderwep?",
+              "messReqMess":"Wat is je bericht",
+              "mailInvalMess":"verkeer email adress",
+              "submit":"zend"
+            },
+
+              "footer":[ ]
+
+            }
+
+
+          }

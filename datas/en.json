@@ -1,0 +1,164 @@
+{
+"menu":[
+  {"key":"about","value":"about"},
+  {"key":"work","value":"projects"},
+  {"key":"techno","value":"technologies"},
+  {"key":"taste","value":"tastes"},
+  {"key":"contact","value":"contact"}],
+
+  "pages":{
+    "about":{
+
+      "title":"A touch of storytelling",
+      "body":[
+        { "title":"Like a virgin",
+        "sound":"like-a-virgin",
+        "body":"Working as a graphic designer, I contracted the development virus when I discovered Action Script : from gotoAndPlay to Extends, Override and Super after having played with loops, hot functions or/and xml file parsing. At the same time I had a OOP enlightenment through a java initiation. Then as Action Script/css/html were insufficient to work as web developer, I took training in PHP/MySQL/JavaScript and I acquainted myself with cms such as Drupal, WordPress or Spip."},
+        { "title":"The prisoner",
+        "sound":"the-prisoner",
+        "body":"I then worked as back-end dev&hellip; Oops! Software Engineer. My tasks were to tame the fierce e-commerce plateform Magento (customisation, implementation, hybridation) and sometimes I was granted the pleasure of playing with Drupal or the hapiness of fiddleling with javascript."},
+        { "title":"Walk like a panther",
+        "sound":"walk-like-a-panther",
+        "body":"After regaining my freedom I rushed into AngularJS and javascript and took classes in Dutch. (I developed my first AngularJS app to help me memorize my Dutch vocabulary). Then so as to strengthen and update my skills in html5/css3/responsive design I took a front-end developer training.<br/><br/>Actually I'm looking for an open-mind team, which doesn't see programming as a testosterone business (men know why it's rather during drink time) to collaborate as front-end developer."}
+      ]
+      },
+      "work":{
+        "title":"Projects",
+        "body":[
+          {
+            "title":"Translator",
+            "desc":"To help me memorize my Dutch.",
+            "technos":"AngularJS, REST, Bootstrap, Mysql, PHP, Jquery.",
+            "url":"http://www.ks.serotonine.com/translator/",
+            "img":"img/works/translator.png"
+          },
+          {
+            "title":"Javascript exercises",
+            "desc":"Some AngularJS JQuery NodeJS exercises.",
+            "technos":"AngularJS, NodeJS, javascript, HTML5.",
+            "url":"http://www.julie-danjou.com",
+            "img":"img/works/exosjs.png"
+          },
+          {
+            "title":"Veritas",
+            "desc":"Veritas' webshop.",
+            "technos":"Magento, Drupal, Compario, PHP, Jquery, XML.",
+            "url":"http://www.veritas.be",
+            "img":"img/works/veritas.png"
+          },
+          {
+            "title":"Essentiel Antwerp",
+            "desc":"Essentiel Antwerp's webshop.",
+            "technos":"Magento, PHP, Jquery, XML.",
+            "url":"http://www.essentiel-antwerp",
+            "img":"img/works/essentiel.png"
+          },
+          {
+            "title":"FLANDERS DRIVE",
+            "desc":"Flandersmake's previous website.",
+            "technos":"Drupal 7",
+            "url":"http://www.flandersdrive.be",
+            "img":"img/works/flandersdrive.png"
+          },
+          {
+            "title":"Bertrand Segonzac",
+            "desc":"A visual artist's website",
+            "technos":"Drupal 7",
+            "url":"http://www.bertrandsegonzac.com",
+            "img":"img/works/segonzac.png"
+          }
+        ]
+        },
+        "techno":{
+          "title":"technologies",
+          "body":[],
+          "compil":[
+            "javascript",
+            "html5",
+            "css3",
+            "angularjs",
+            "jquery",
+            "grunt",
+            "modernizr",
+            "requirejs",
+            "underscore",
+            "sass",
+            "php",
+            "mysql",
+            "json",
+            "xml",
+            "magento",
+            "drupal",
+            "wordpress",
+            "spip",
+            "photoshop",
+            "illustrator",
+            "flash",
+            "indesign",
+            "git",
+            "svn",
+            "atom",
+            "ubuntu"
+          ]
+          },
+          "taste":{
+            "title":"tastes",
+            "subtitle":["What i like","What I dislike"],
+            "body":{
+            "love":[
+              { "title":"Comics",
+                "img":"img/taste/jeune-albert.jpg",
+                "body":"I have always drawn and I have always been a Comics addict.<br/>And as a picture is worth a thousand words I hereby add a <a href='http://localhost/frontend/carousels/slick-carousel/slick.html' target='_blank' >sample</a> of my ageless favourite hits.",
+                "url":""
+              },
+              { "title":"Technological survey",
+                "img":"img/taste/self-learning.jpg",
+                "body":"It's a mandatory in the web sector. I hereby introduce you to some of the websites I use on a regular basis :<ul><li><a href='http://stackoverflow.com/'>Stackoverflow.com</a></li><li><a href='http://www.grafikart.fr/'>Grafikart.fr</a></li><li><a href='http://regexr.com/'>regexr.com</a></li><li><a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'>developer.mozilla.org</a></li><li><a href='https://www.codecademy.com'>codecademy.com</a></li><li><a href='http://www.codewars.com/'>codewars.com</a></li><li><a href='https://openclassrooms.com'>openclassrooms.com</a></li></ul>",
+                "url":""
+              },
+              { "title":"Eclectical music tastes",
+                "img":"img/taste/black.jpg",
+                "body":"Since I saw again <i>The Goodfellas</i> I wake up every morning with <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/QUiYrOAoALw?autoplay=1'><i>Il cielo in una stanza</i></a> in my head. I have a bias for  <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/yLvByOh2iLo?autoplay=1'>female electro</a> and <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/zvP9D3N-UZs?autoplay=1'>frenchy </a><a class='open-popup' href='#' data-link='https://www.youtube.com/embed/TAvX57LeAZE?autoplay=1'>electro</a>.<br/>I recently had a crush for<a class='open-popup' href='#' data-link='https://www.youtube.com/embed/08h0IVs4RKQ?autoplay=1'> the Heavy</a>.  It's better than The Black Keys isn't it? If <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/t2zb_iZC6nI?autoplay=1'>Frank</a> stays my friend for life, I also can't stand for <a href='#'class='open-popup' data-link='https://www.youtube.com/embed/36Y_ztEW1NE?autoplay=1'>such beauty</a>.<br/>And I never forget some essential <a class='open-popup' href='#' data-link='https://www.youtube.com/embed/cn8bQmo-Tw4?autoplay=1'>soundtracks</a>.",
+                "url":""
+              }
+
+              ],
+              "hate":[
+                { "title":"Dark patterns",
+                  "img":"img/taste/dark-pattern.png",
+                  "body":"Means interfaces designed to cheat the user.<br/>Who ever booked a ticket on Ryanair knows about the Stations of the Cross to avoid additional insurances, car renting, seat booking, sms alerts and so on&hellip; <br/> Want to watch a free streaming movie ? Welcome to the land of rotten links (hin! hin! you get what you deserve !).<br/> <a href='http://darkpatterns.org/'>Tell me more</a>",
+                  "url":"http://darkpatterns.org/"
+                },
+                { "title":"Untimely popups",
+                  "img":"img/taste/pesci.png",
+                  "body":"No thanks I don't want to suscribe to your site&hellip; where is this f&hellip; button ? No thanks I no longer wish to suscribe to your newsletter, I JUST WANT TO READ AN INFO!!! Goodverdoume !<br/> <a href='https://thinkster.io/egghead/angular-element'>Tell me more</a>",
+                  "url":""
+                },
+                { "title":"Time consuming videos",
+                  "img":"img/taste/dr-evil.png",
+                    "body":"Ok I just want to understand the how and why of this snippet, not your career plan.<br/>And of course you must endure a 12 second long advert before watching some videos.<br/> <a href='https://www.youtube.com/watch?v=_6ijcqI5fi8&feature=player_embedded'>Tell me more</a>",
+                  "url":""
+                }
+
+                ]}
+            },
+            "contact":{
+              "title":"Contact",
+              "name":"Your name please",
+              "mail":"Your email please",
+              "subject":"Object",
+              "message":"Tell me",
+              "nameReqMess":"What's your name please ?",
+              "mailReqMess":"What's your email please ?",
+              "subjectReqMess":"What's your object please ?",
+              "messReqMess":"What's your message ?",
+              "mailInvalMess":"Invalid email",
+              "submit":"let's go !"
+            },
+
+              "footer":[ ]
+
+            }
+
+
+          }

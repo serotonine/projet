@@ -1,0 +1,29 @@
+<div  class="wrapper-center page">
+  <h1>{{page.title}}</h1>
+  <ul class="list-taste">
+
+    <li class="btn-taste" ng-repeat="subtitle in page.subtitle">
+
+      <h3>
+        <span class="pipe" ng-show="$index==1">||</span>
+        <span ng-class="{ true:'taste active',false:'taste' }[$index===0]"class="taste" ng-click="showTaste($event, $index)">{{subtitle}}</span>
+        </h3>
+      </li>
+    </ul>
+    <div  ng-repeat="(title, content) in page.body" id={{title}} ng-class="{hate:'wrapper-taste',love:'wrapper-taste'}[title]">
+<!-- equal-height -->
+        <div  ng-repeat="taste in content" ng-class="{ true:'box-body last',false:'box-body' }[($index+1) % 3===0]">
+
+          <img ng-if="taste.img" src="{{taste.img}}" alt="{{taste.title}}" class="rounded" />
+          <h3>{{taste.title}}</h3>
+          <p ng-bind-html="to_trusted(taste.body)"></p>
+          </div>
+    </div>
+<div equal-height class="clearfix">&nbsp;</div>
+</div>
+
+<div id="youtube-popup" draggable="true" class="hidden">
+<h5 class="close-btn">×</h5>
+<iframe width="168" height="126" src="" frameborder="0"></iframe>
+
+</div>

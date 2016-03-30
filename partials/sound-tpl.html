@@ -1,0 +1,10 @@
+<h3>
+  <a class="sound" href="">{{item.title}}</a>
+</h3>
+  <audio preload="auto">
+  <source ng-bind-html="item.sound" src="{{'sound/'+item.sound+'.mp3' |secure}}" type="audio/mp3">
+  <source ng-bind-html="item.sound" src="{{'sound/'+item.sound+'.ogg' |secure}}" type="audio/ogg">
+
+Your browser does not support the audio element.
+</audio>
+<p ng-bind-html="item.body"></p>
